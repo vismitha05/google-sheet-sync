@@ -1,0 +1,25 @@
+Nuances & Edge Cases Handled
+
+Bidirectional sync with loop prevention using last_updated_by
+
+Event-driven Google Sheets sync via installable triggers
+
+Schema consistency enforced between Sheet & DB
+
+Duplicate row handling via primary key (id)
+
+Partial row updates handled safely
+
+Boolean & data type normalization
+
+Concurrent Google Sheet edits (multiplayer-safe via last-write-wins)
+
+Backend restart-safe (no state stored in memory)
+
+API failure handling without corrupting data
+
+Clear separation of concerns (routes, services, DB layer)
+
+Secure DB access via non-root user
+
+Scalable design (can support multiple sheets/tables)
